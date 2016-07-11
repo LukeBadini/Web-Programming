@@ -1,0 +1,49 @@
+/*html {
+	background: url('http://world-visits.com/wp-content/uploads/2012/03/Green-Forest-4.jpg');
+}
+*/
+body {
+    font-family: "Verdana";
+    font-weight: 200;
+    background-image: url("../images/pokeballs_background.png")
+}
+
+.login_form {
+    width: 1000px; 
+    margin: auto;
+    margin-top: auto;
+    background-image: url("../images/header_extend.png");
+    /*background-color: aliceblue;*/
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px black;
+    text-align: center;
+}
+.login_header {
+    padding: 40px 40px 40px 40px;
+}
+.login_header h1 {
+    font-family: "Verdana";
+    color: white;
+	font-weight: 250;
+	font-size: 30px;
+	text-shadow: 1px 1px 0 black;
+	margin-bottom: 12px;
+}
+.login_header span {
+    font-family: "Verdana";
+    color: white;
+	text-shadow: 1px 1px 0 black;
+}
+.login_info {
+    
+}
+.submit_button {
+    float: left;
+    padding: 10px 25px;
+    background-image: url(http://static3.depositphotos.com/1000350/153/i/950/depositphotos_1533071-Blue-paper-texture.jpg);
+}
+.register_button {
+    margin-bottom: 25px;
+}

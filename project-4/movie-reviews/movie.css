@@ -1,0 +1,127 @@
+body {
+	background-color: #DFE4D2;
+	margin: 0px;
+}
+
+/* the banner at the top of the page */
+header {
+	margin: 0px;
+	background-image: url("images/rancidbannerbg.png");
+}
+
+header img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	text-align: center;
+	font: bold 24pt serif;
+	text-shadow: 3px 3px #999999;
+}
+
+/* the box containing all of the content of the page */
+.content {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	box-shadow: gray 5px 5px 5px;
+	overflow: hidden;
+	font-size: 10pt;
+	background-color: #EEEEEE;
+}
+
+/* the right part of the content box, containing basic facts about the movie */
+.overview {
+	background-color: #A2B964;
+	font-family: sans-serif;
+	width: 250px;
+	float: right;
+}
+
+.overview dl {
+	margin: 10pt;
+}
+
+.overview dt {
+	font-weight: bold;
+	margin-top: 10pt;
+}
+
+.overview ul {
+	list-style: none;
+	padding: 0px;
+}
+
+/* the left part of the content box, containing the reviews */
+.reviews {
+	background-color: #EEEEEE;
+	width: 550px;
+	float: right;
+}
+
+.rating {
+	background-image: url("images/rottenlargebg.png");
+	width: 100%;
+	height: 83px;
+	font-size: 48pt;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: red;
+}
+
+.rating img {
+	float: left;
+	margin-right: 20px;
+}
+
+.rating span {
+	vertical-align: sub;
+}
+
+/* there are two review columns ... */
+.reviewcolumn {
+	width: 47%;
+	margin-left: 2%;
+	float: left;
+	font-family: serif;
+}
+
+/* a single review */
+.review {
+	background-color: #FFFFFF;
+	border: 2px solid #cccccc;
+	border-radius: 20px;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.review img {
+	float: left;
+	margin-right: 5px;
+}
+
+.critic {
+	margin-bottom: 20pt;
+}
+
+.critic img {
+	float: left;
+	margin-right: 5px;
+}
+
+.critic .publication {
+	font-style: italic;
+}
+
+/* the status bar the bottom of the content box */
+.contentfooter {
+	clear: both;
+	background-color: #A2B964;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+}

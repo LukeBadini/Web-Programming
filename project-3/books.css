@@ -1,0 +1,31 @@
+body {
+	padding: 0px 30px;
+	font-family: sans-serif;
+}
+
+h1 {
+	background-color: #DDDDDD;
+	padding: 10px;
+}
+
+li {
+	margin: 10px 0px;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.author {
+	font-style: italic;
+}
+
+footer {
+	clear: both;
+	padding: 30px 0px;
+}
+
+.validator {
+	float: right;
+	margin-left: 20px;
+}

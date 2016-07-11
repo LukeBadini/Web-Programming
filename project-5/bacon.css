@@ -1,0 +1,74 @@
+/*
+	Author: Luke Badini
+	Version: November 2015
+	
+	Project 5: One Degree of Kevin Bacon
+	Style sheet for Kevin Bacon search engine.
+*/
+body {
+	background-color: #dad9d4;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 36pt;
+}
+
+h2 {
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+header, footer {
+	background-image: url("images/banner-background.png");
+	color: white;
+	padding: 10px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+form div {
+	width: 24em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form legend {
+	text-align: left;
+}
+
+main {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+table {
+	text-align: center;
+	border: 1px solid #dad9d4;
+	border-collapse: collapse;
+	margin: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, td, tr {
+	padding: 10px;
+}
+
+th {
+	font-weight: bold;
+}
+
+tr {
+	background-color: white;
+}
+
+tr.alt {
+	background-color: #dad9d4;
+}

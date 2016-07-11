@@ -1,0 +1,63 @@
+body {
+	font-family: Sans-Serif;
+}
+
+h1 {
+	background-color: #D6ADC2;
+	padding: 22px;
+	margin-bottom: 40px;
+	font-size: 20pt;
+}
+
+h2 {
+	margin: 0px;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+h3 {
+	text-indent: 18px;
+	font-size: 18pt;
+	background-color: #FFEB99;
+	padding: 11px;
+	border-top-style: solid;
+	border-color: black;
+	border-top-width: 3px;
+}
+
+h4 {
+	text-indent: 30px;
+	font-size: 14pt;
+	margin-bottom: 5px;
+}
+
+ol {
+	font-weight: bold;
+}
+
+ul , ol{
+	margin-left: 20px;
+	font-size: 12pt;
+}
+
+#strudelDesc {
+	font-size: 10pt;
+}
+
+.directions {
+	text-indent: 50px;
+	margin: 0px;
+}
+
+.nestedList {
+	font-weight: normal;
+}
+
+.comment {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	padding: 5px;
+	background-color: #EBF5CC;
+	font-style: italic;
+}
